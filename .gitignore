@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Outputs / data
+data/raw/*
+!data/raw/README.md
+results/
+logs/
+
+# Large files
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.sam
+*.vcf
+*.fasta
+*.fa
+*.fastg
